@@ -50,16 +50,17 @@ function Cart() {
               </div>)
             })
           }
-        </section>
-      }
-      <section className=''>
+          <section className=''>
         {
           `${result.toFixed(2)}$`
         }
-        <Link to="/payform">
+        <Link className='btn btn-primary' to="/payform">
           Buy your items
         </Link>
       </section>
+        </section>
+      }
+      
     </main>
   </>
 }
